@@ -1,0 +1,114 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+    background-color: #f2f2f2;
+    font-family: Helvetica;
+    margin-left: 10px;
+    color: #666;
+    font-size: 25px;
+}
+
+
+/* Add minimal styling to text */
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 25px;
+    color: #666;
+    text-align: justify;
+    margin-right: 30%;
+    margin-top: 15px;
+}
+
+li {
+    font-size: 25px;
+    color: #666;
+    text-align: justify;
+    margin-right: 30%;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.parametres {
+    display: block;
+}
+
+button:hover {
+    background-color: rgb(238, 216, 136);
+}
+
+.question {
+    margin-top: 20px;
+}
+
+.answer {
+    font-size: 35px;
+    width: 150px;
+    height: 75px;
+    margin-left: 20px;
+}
+
+.main {
+    margin-left:2%;
+}
+
+.small {
+    display: block;
+    font-size: 35px;
+    width: 250px;
+    height: 85px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(237, 204, 85);
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+    color: #333;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+label {
+    font-size: 20px;
+}
+
+

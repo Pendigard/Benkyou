@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Benkyou</title>
+    <link rel="stylesheet" href="../style/benkyou.css">
+</head>
+<body>
+    <a href="../benkyou.html" class="no-underline">
+        <h1>Benkyou「勉強 | べんきょう」</h1>
+    </a>
+    <h2 id="titre"></h2>
+    <h3>Paramètres「設定 | せってい」</h3>
+    <div class="parametres">
+        <label for="qcm">QCM: </label>
+        <input type="checkbox" id="qcm" checked/>
+    </div>
+    <div class="parametres">
+        <label for="ouverte">Questions Ouvertes: </label>
+        <input type="checkbox" id="ouverte" checked/>
+    </div>
+    <div class="parametres">
+        <label for="jpn">Questions en Japonais: </label>
+        <input type="checkbox" id="jpn" checked/>
+    </div>
+    <div class="parametres">
+        <label for="nbr-exercice">Nombre d'exercices: </label>
+        <input type="number" id="nbr-exercice" min="1" max="100" value="5"/>
+    </div>
+    <button id="go" class="small">行こう！</button>
+    <div id="exercices"></div>
+    <script src="../script/vocabulaire/vocabulaire.js"></script>
+</body>
+</html>
