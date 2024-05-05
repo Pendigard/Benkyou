@@ -19,10 +19,7 @@ function getTypeVoc() {
 
 function getNameVoc() {
     type = getTypeVoc();
-    switch (type) {
-        case "loc" : return "Localisation"
-        default : return "Inconnu"
-    }
+    return type.charAt(0).toUpperCase() + type.slice(1);
 }
 
 function stringFormat(string, ...args) {
