@@ -2,7 +2,7 @@
 
 ## Description
 
-Benkyou est un site web qui permet de réviser des notions de japonais.
+Benkyou est un petit site que j'ai conçu pour réviser des notions de japonais et pratiquer légèrement le développement web.
 
 ## Installation
 
